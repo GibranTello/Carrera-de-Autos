@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Carreras de autos</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebasedatabase.js"></script>
+
+    
+     
+    var firebaseConfig = {
+      apiKey: "AIzaSyDsQsqDBRuNaeFOMm2hjcXlMzt25X8cJlk",
+      authDomain: "ball-moving-7895e.firebaseapp.com",
+      databaseURL: "https://ball-moving-7895e-default-rtdb.firebaseio.com",
+      projectId: "ball-moving-7895e",
+      storageBucket: "ball-moving-7895e.appspot.com",
+      messagingSenderId: "458686882047",
+      appId: "1:458686882047:web:4383759f0360575481ecca"
+    };
+
+    // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+   
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>
